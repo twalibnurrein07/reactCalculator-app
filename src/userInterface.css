@@ -1,0 +1,55 @@
+button{
+    height: 100%;
+    width:100%;
+    border-radius: 0 !important;
+
+}
+.calculator{
+  width:fit-content;
+  height: max-content;
+  
+}
+input{
+  height: 40px;
+}
+.row{
+  margin:0;
+  
+}
+
+.col-9{
+    width:fit-content
+  }
+  .col-3{
+    width: fit-content;
+  }
+  .col-9 .row{
+    width:300px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0;
+  }
+ 
+  .col-3 .col-12{
+    width:150px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0;
+    border-left: 0;
+  }
+  .col-3 .four{
+    height: 200px;
+  }
+  .row .col-4,.row .col-8{
+    border: 1px ridge black;
+  }
+  .row .col-4:hover,.row .col-8:hover,.one .col-6:hover,.col-3 .col-12:hover{
+    border: 1px ridge white;
+    box-shadow: 5px;
+    transform: scale(1.05);
+  }
+  button:hover{
+    color:black;
+    /* transform: scale(1); */
+    color:black !important;
+  }
