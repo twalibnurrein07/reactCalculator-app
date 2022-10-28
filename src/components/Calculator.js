@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import '../index.css'
-// import {add,division,multiply,subtract} from '../operations';
+
 
 export const Calculator = () => {
   const [digits, setDigits] = useState("");
